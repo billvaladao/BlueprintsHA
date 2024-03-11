@@ -25,7 +25,7 @@ sequence:
   - service: media_player.volume_set
     metadata: {}
     data:
-      volume_level: 0.8
+      volume_level: 0.7
     target:
       entity_id: "{{ onde_anunciar }}"
   - delay:
@@ -47,7 +47,7 @@ sequence:
   - service: media_player.volume_set
     metadata: {}
     data:
-      volume_level: 0.3
+      volume_level: 0.4
     target:
       entity_id: "{{ onde_anunciar }}"
 icon: mdi:bullhorn
